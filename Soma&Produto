@@ -1,0 +1,24 @@
+// a)A soma dos produtos. b)o produto do primeiro numero pelo quadrado do segundo. c)o quadrado do primeiro numero
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int num1, num2, soma, produto, quadrado;
+
+    printf("digite um valor para o primeiro numero:"); // usuario deve digitar um valor para os calculos
+    scanf("%d", &num1);
+
+    printf("digite um valor para o segundo numero:"); // o usuario deve digitar o segundo valor 
+    scanf("%d", &num2);
+
+    soma = num1 + num2;                                  // soma dos dois valores digitados pelo usuario
+    printf("\nresultado da soma dos numeros:%d\n", soma);
+
+    produto = num1 * (num2*num2);       
+    printf("valor dos numeros em produto:%d\n", produto);
+
+    quadrado = pow((num1),2);
+    printf("primeiro numero ao quadrado: %d", quadrado);
+
+}
