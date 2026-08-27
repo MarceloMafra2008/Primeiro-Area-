@@ -1,0 +1,20 @@
+//Converçao de metros para milimetros e centimetros
+
+#include <stdio.h>
+int main()
+{
+    int metros, centimetros, milimetros;
+    printf("digite um valor em metros para conversao:");
+    scanf("%d", &metros);
+
+    centimetros = 100 * metros;
+    printf("valor convertido em centimetros = %d\n", centimetros);
+    
+
+    milimetros = 1000 * metros;
+    printf("valor convertido em milimetros = %d", milimetros);
+
+    return 0;
+}
+// para coneverter metros em centimetros: 100 * metros;
+// para coneverter metros em milimetros: 1000 * metros;
