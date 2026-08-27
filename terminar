@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int num1, num2, soma, produto;
+
+    printf("digite um valor para o primeiro numero:");
+    scanf("%d", &num1);
+
+    printf("digite um valor para o segundo numero:");
+    scanf("%d", &num2);
+
+    soma = num1 + num2;
+    printf("resultado da soma dos numeros:%d/n", soma);
+
+    produto = pow(num1*(num2),2);
+    printf("valor dos numeros em produto:%d", produto);
+
+}
