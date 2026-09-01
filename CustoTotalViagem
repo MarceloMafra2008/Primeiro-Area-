@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int km, litros, consumo_medio, total;
+
+    printf("distancia total percorrida:");
+    scanf("%d", &km);
+
+    printf("\n");
+
+    printf("gasto total de combustivel:");
+    scanf("%d", &litros);
+
+    printf("\n");
+
+    consumo_medio = km / litros;
+    printf("O consumo medio:%d", consumo_medio);
+
+    printf("\n");
+
+    total= consumo_medio * 6,20;
+    printf("\nCusto total da viagem:%d", total);
+
+    return 0;
+}
