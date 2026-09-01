@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+int main()
+{
+    int salario, vendas, total, comissao;
+
+    printf("informe o salario fixo do vendedor:");
+    scanf("%d", &salario);
+
+    printf("informe o valor total de vendas:");
+    scanf("%d", &vendas);
+
+    comissao=vendas*5/100;
+
+    total = comissao+salario;
+    printf("salario total do funcionario:%d", total);
+}
